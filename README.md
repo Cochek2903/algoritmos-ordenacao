@@ -1,6 +1,6 @@
-Aluno: João Pedro Cochek Giovannoni
-Disciplina: Ciencia Da Computação
-Instituição: PUC-PR
+**Aluno:** João Pedro Cochek Giovannoni  
+**Disciplina:** Ciência da Computação  
+**Instituição:** PUC-PR
 
 
 # 🧮 Comparativo de Algoritmos de Ordenação
@@ -51,43 +51,53 @@ int[] vetor3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 
 
 
 
-📊 Resultados Detalhados
+## 📊 Resultados Detalhados
 
+---
 
-🔸 Vetor 1 (quase aleatório)
-Algoritmo	Trocas (swaps)	Interações (comparações)
-Bubble	           78               	180
-Selection	       18	                190
-Cocktail	       78               	154
-Comb (1.3)	       22               	129
-Gnome	           78               	174
+### 🔸 Vetor 1 (quase aleatório)
 
-Menos trocas: Selection
-Menos comparações: Comb (1.3)
+| Algoritmo  | Trocas (swaps) | Interações (comparações) |
+|-------------|----------------:|-------------------------:|
+| Bubble      | 78              | 180                      |
+| Selection   | **18**          | 190                      |
+| Cocktail    | 78              | 154                      |
+| Comb (1.3)  | 22              | **129**                  |
+| Gnome       | 78              | 174                      |
 
+**Menos trocas:** Selection  
+**Menos comparações:** Comb (1.3)
 
-🔸 Vetor 2 (ordenado)
-Algoritmo	Trocas (swaps)	Interações (comparações)
-Bubble	         0	                    19
-Selection	     0	                    190
-Cocktail	     0                  	19
-Comb (1.3)	     0                  	110
-Gnome	         0                  	19
+---
 
-Menos trocas: Todos empatados
-Menos comparações: Bubble, Cocktail e Gnome
+### 🔹 Vetor 2 (ordenado)
 
+| Algoritmo  | Trocas (swaps) | Interações (comparações) |
+|-------------|----------------:|-------------------------:|
+| Bubble      | **0**           | **19**                   |
+| Selection   | 0               | 190                      |
+| Cocktail    | 0               | **19**                   |
+| Comb (1.3)  | 0               | 110                      |
+| Gnome       | 0               | **19**                   |
 
-🔸 Vetor 3 (invertido)
-Algoritmo	Trocas (swaps)	Interações (comparações)
-Bubble	            190             	190
-Selection	        10              	190
-Cocktail	        190	                190
-Comb (1.3)	        18	                129
-Gnome	            190             	380
+**Menos trocas:** Todos empatados  
+**Menos comparações:** Bubble, Cocktail e Gnome
 
-Menos trocas: Selection
-Menos comparações: Comb (1.3)
+---
+
+### 🔻 Vetor 3 (invertido)
+
+| Algoritmo  | Trocas (swaps) | Interações (comparações) |
+|-------------|----------------:|-------------------------:|
+| Bubble      | 190             | 190                      |
+| Selection   | **10**          | 190                      |
+| Cocktail    | 190             | 190                      |
+| Comb (1.3)  | 18              | **129**                  |
+| Gnome       | 190             | 380                      |
+
+**Menos trocas:** Selection  
+**Menos comparações:** Comb (1.3)
+
 
 
 📈 Conclusões
