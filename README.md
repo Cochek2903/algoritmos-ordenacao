@@ -3,13 +3,13 @@
 **Instituição:** PUC-PR
 
 
-# 🧮 Comparativo de Algoritmos de Ordenação
+# Comparativo de Algoritmos de Ordenação
 
 Este projeto compara o desempenho de **cinco algoritmos de ordenação clássicos** em diferentes cenários, avaliando **eficiência em trocas (swaps)** e **interações (comparações)**.
 
 ---
 
-## 📋 Algoritmos testados
+## Algoritmos testados
 
 - **Bubble Sort** (com otimização *early exit*)  
 - **Selection Sort**  
@@ -19,7 +19,7 @@ Este projeto compara o desempenho de **cinco algoritmos de ordenação clássico
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Avaliar e comparar o comportamento dos algoritmos em três tipos de vetores:
 1. Vetor **quase aleatório**  
@@ -33,7 +33,7 @@ Cada algoritmo foi implementado manualmente em Java, sem uso de bibliotecas pron
 
 ---
 
-## 💻 Estrutura do código
+## Estrutura do código
 
 O projeto consiste em um único arquivo:
 
@@ -51,7 +51,7 @@ int[] vetor3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 
 
 
 
-## 📊 Resultados Detalhados
+## Resultado
 
 ---
 
@@ -100,7 +100,7 @@ int[] vetor3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 
 
 
 
-📈 Conclusões
+Conclusão
 Bubble Sort: Excelente em casos já ordenados (detecta ordenação e finaliza cedo).
 
 Selection Sort: Realiza pouquíssimas trocas, mantendo consistência mesmo em casos reversos.
